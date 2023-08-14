@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="bg-slate-200">
+    <section class="w-9/12 mx-auto p-8">
+      <h1 class="text-5xl font-bold text-center">Digital <span class="text-orange-700">Tosbih</span> for <span class="text-sky-700">Afia Tasnim</span></h1>
+      <div class="grid gap-5 grid-rows-1 lg:grid-cols-3  my-10">
+        <div class="p-5 bg-purple-400 text-white text-center rounded-lg shadow-xl shadow-black">
+          <h2 class="text-4xl font-semibold mb-3">Alhamdulillah</h2>
+          <p id="display-value-alhamdulillah" class="text-4xl font-semibold mb-4">0</p>
+          <button id="alhamdulillah-increase-btn" class="bg-indigo-500 py-3 px-5 text-xl font-semibold rounded-lg mr-2 hover:bg-indigo-900 shadow-lg shadow-black">Increase</button>
+
+          <button id="alhamdulillah-deccrease-btn" type="button" class="bg-fuchsia-500 py-3 px-5 text-xl font-semibold rounded-xl ml-2 shadow-lg shadow-black hover:bg-fuchsia-900">Decrease</button>
+        </div>
+
+
+        <div class="p-5 bg-violet-500 text-white text-center rounded-lg shadow-xl shadow-black">
+          <h2 class="text-4xl font-semibold mb-3">SubhanAllah</h2>
+          <p id="display-value-subhanallah" class="text-4xl font-semibold mb-4">0</p>
+          <button id="subhanallah-increase-btn" class="bg-blue-500 py-3 px-5 text-xl font-semibold rounded-lg mr-2 hover:bg-blue-900 shadow-lg shadow-black">Increase</button>
+
+          <button id="subhanallah-deccrease-btn" type="button" class="bg-yellow-500 py-3 px-5 text-xl font-semibold rounded-xl ml-2 shadow-lg shadow-black hover:bg-yellow-900">Decrease</button>
+        </div>
+
+
+        <div class="p-5 bg-sky-700 text-white text-center rounded-lg shadow-xl shadow-black">
+          <h2 class="text-4xl font-semibold mb-3">AllahuAkbar</h2>
+          <p id="display-value-allahuakbar" class="text-4xl font-semibold mb-4">0</p>
+          <button id="allahuakbar-increase-btn" class="bg-violet-500 py-3 px-5 text-xl font-semibold rounded-lg mr-2 hover:bg-violet-900 shadow-lg shadow-black">Increase</button>
+
+          <button id="allahuakbar-deccrease-btn" type="button" class="bg-fuchsia-500 py-3 px-5 text-xl font-semibold rounded-xl ml-2 shadow-lg shadow-black hover:bg-fuchsia-900">Decrease</button>
+        </div>
+        
+      </div>
+      <div class="mx-auto text-center">
+        <button id="all-reset-btn" type="button" class="bg-indigo-500 text-white py-4 px-14 text-xl font-semibold rounded-xl ml-2 shadow-lg shadow-black hover:bg-indigo-900">ALL RESET</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
